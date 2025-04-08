@@ -1,0 +1,99 @@
+:root {
+    --main--color: #fcfcfc;
+}
+body {
+    font-family: "Archivo Black", sans-serif;
+    font-family: "Lalezar", system-ui;
+    background-color: #CFB53B;
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+/*start-landing page*/
+
+.header-area{
+    position: relative;
+    z-index: 2;
+    color: #FFF;
+    display: flex;
+    padding: 15px;
+    flex-direction: row-reverse;
+}
+.header-area .logo{
+    color: #000000;
+    width: 1100px;
+    text-align: end;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-area .links{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.header-area .links li{
+display: inline-block;
+margin-left: 20px;
+}
+.header-area .links li a{
+    color: #000000;
+    text-decoration: none;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active{
+    color: var(--main--color);
+    transition: .3s;
+}
+.introduction-text{
+position: absolute;
+left: 50%;
+top: 60%;
+transform: translate(-50%, -50%);
+z-index: 2;
+color: #FFF;
+text-align: center;
+}
+.introduction-text h1{
+font-size: 60px;
+margin: 0 0 20px 0;
+}
+.introduction-text h1 span{
+    color: var(--main--color);
+}
+.introduction-text p{
+    line-height: 3.5;
+    font-size: 50px;
+    margin: 0;
+}
+/*end-landing page*/
+/*link img*/
+.link-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 900px;
+    left: 10%;
+
+}
+/*end-link img*/
+/*start-apout page*/
+.apout h1{
+width: 100%;
+text-align: center;
+padding:150px 360px  200px;
+}
+.about p{
+    width: 145%;
+    text-align: center;
+    font-size: 30px;
+    }
+/*end-apout page*/

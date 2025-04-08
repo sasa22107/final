@@ -1,0 +1,145 @@
+:root {
+    --main--color: #CFB53B;
+}
+body {
+    font-family: "Archivo Black", sans-serif;
+    font-family: "Lalezar", system-ui;
+    background-color: #CFB53B;
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+/*start-landing page*/
+.landing-page {
+    min-height: 100vh;
+    background-image: url(../imgs/15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    top: -300px;
+    border-radius: 0 0 200px 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.landing-page .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+.header-area{
+    position: relative;
+    z-index: 2;
+    color: #FFF;
+    display: flex;
+    padding: 15px;
+    flex-direction: row-reverse;
+}
+.header-area .logo{
+    color: #CFB53B;
+    width: 1100px;
+    text-align: end;
+    padding-top: 300px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-area .links{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-top: 280px;
+    padding-left: 0px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.header-area .links li{
+display: inline-block;
+margin-left: 20px;
+}
+.header-area .links li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active{
+    color: var(--main--color);
+    transition: .3s;
+}
+.introduction-text{
+position: absolute;
+left: 50%;
+top: 60%;
+transform: translate(-50%, -50%);
+z-index: 2;
+color: #FFF;
+text-align: center;
+}
+.introduction-text h1{
+font-size: 60px;
+margin: 0 0 20px 0;
+}
+.introduction-text h1 span{
+    color: var(--main--color);
+}
+.introduction-text p{
+    line-height: 3.5;
+    font-size: 50px;
+    margin: 0;
+}
+/*end-landing page*/
+/*link img*/
+.link-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 900px;
+    left: 10%;
+
+}
+/*end-link img*/
+/*start-apout page*/
+.apout h1{    
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+}
+.apout h1{
+font-size: 50px;
+flex: 1;
+padding: 50px;
+}
+.apout h1 span{
+color: var(--main--color);
+}
+.apout h1 span:after{    
+font-weight: bold;
+font-size: 90px;
+color: var(--main--color);
+margin: 0 0 10px;
+}
+
+.apout p {
+    font-size: 50px;
+    flex: 1;
+    padding: 50px;
+    }   
+.apout p {   
+    font-size: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+line-height: 1.8;
+color: #000000;
+margin: 0;
+}
+/*end-apout page*/
